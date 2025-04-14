@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
     private val audioFormat = AudioFormat.ENCODING_PCM_16BIT
     private val RECORD_AUDIO_PERMISSION_CODE = 1
     private var lastUiUpdateTime: Long = 0
-    private val uiUpdateInterval: Long = 500 // Milisegundos (ajusta esto a tu gusto, 300-500ms suele ir bien)
+    private val uiUpdateInterval: Long = 400 // Milisegundos (ajusta esto a tu gusto, 300-500ms suele ir bien)
     private val dbValuesList = mutableListOf<Double>() // Para guardar valores entre actualizaciones
     private lateinit var dbProgressBar: ProgressBar
     private lateinit var minDbTextView: TextView
